@@ -1,0 +1,6 @@
+**/.DS_Store
+launch.json
+.vscode
+nimcache/
+nimblecache/
+htmldocs/
