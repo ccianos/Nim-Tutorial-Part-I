@@ -3,8 +3,7 @@ type
     north, east, south, west
   BlinkLights = enum
     off, on, slowBlink, mediumBlink, fastBlink
-  LevelSetting = array[north..west, BlinkLights]
-  LightTower = array[1..10, LevelSetting]
+  LightTower = array[1..10, array[north..west, BlinkLights]]
 
 var
   tower: LightTower
