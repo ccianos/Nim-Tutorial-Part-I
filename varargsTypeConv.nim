@@ -3,4 +3,4 @@ proc myWriteln(f: File, a: varargs[string, `$`]) =
     write(f, s)
   write(f, "\n")
 
-myWriteln(stdout, 479, "echo", "!@#")
+myWriteln(stdout, 479, "echo", "!@#"  )
